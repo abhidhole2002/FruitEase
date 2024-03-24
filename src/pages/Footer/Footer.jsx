@@ -4,7 +4,7 @@ import { Icon } from "../../assets/assets";
 const Footer = () => {
   return (
     <div className="bg-gray-700">
-      <div className=" text-white flex justify-center gap-28 py-10 sm:flex-col items-center">
+      <div className=" text-white flex justify-center gap-28 py-10 ">
         <div>
           <h1 className="text-xl font-semibold">About us</h1>
           <p className="w-60 text-sm mt-5">
@@ -38,7 +38,9 @@ const Footer = () => {
       </div>
 
       <hr className="mx-40" />
-      <h1 className=" text-white text-center text-sm mx-auto py-3">Copyrights © 2024 , All Rights Reserved.</h1>
+      <h1 className=" text-white text-center text-sm mx-auto py-3">
+        Copyrights © 2024 , All Rights Reserved.
+      </h1>
     </div>
   );
 };

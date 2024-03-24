@@ -14,7 +14,7 @@ const Product = () => {
           fuga quas itaque eveniet beatae optio.
         </p>
       </div>
-      <div className="flex py-6 justify-center gap-20 sm:flex-col items-center">
+      <div className="flex py-6 justify-center gap-20 ">
         <Productcard img={Icon.product1} name="Apple" price="20$" />
         <Productcard img={Icon.product2} name="Berry" price="40$" />
         <Productcard img={Icon.product3} name="Stawberry" price="30$" />

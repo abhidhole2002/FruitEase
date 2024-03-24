@@ -3,9 +3,9 @@ import { Icon } from "../../assets/assets";
 
 const Deal = () => {
   return (
-    <div className="flex w-full bg-gray-100 items-center px-4 py-10 mx-auto justify-center mt-24 relative sm:flex-col">
+    <div className="flex w-full bg-gray-100 items-center px-4 py-10 mx-auto justify-center mt-24 relative">
       <div>
-        <img src={Icon.deal} alt="" className="sm:w-80" />
+        <img src={Icon.deal} alt="" />
         <div className="bg-orange-400 w-24 h-24 text-center pt-4 rounded-full absolute top-24  ">
           <h1 className="font-bold">
             30%<br></br>off per kg

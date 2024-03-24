@@ -13,7 +13,7 @@ const News = () => {
           fuga quas itaque eveniet beatae optio.
         </p>
       </div>
-      <div className="flex justify-center gap-20 py-10 sm:flex-col items-center">
+      <div className="flex justify-center gap-20 py-10 ">
         <NewsCard />
         <NewsCard />
         <NewsCard />
